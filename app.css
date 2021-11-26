@@ -110,6 +110,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 2rem;
 }
 
+/*UNDERLINE BLACK*/
 .underline {
     position: relative;
    
@@ -129,6 +130,32 @@ body::-webkit-scrollbar-thumb {
 
 @media (hover: hover) and (pointer: fine) {
     .navbar-item:hover .underline::before {
+        left: 0;
+        right: auto;
+        width: 100%;
+    }
+}
+
+/*UNDERLINE WHITE*/
+.underline-w {
+    position: relative;
+   
+}
+
+.underline-w::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1a1a1a;
+    background-blend-mode: different;
+    transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .navbar-item:hover .underline-w::before {
         left: 0;
         right: auto;
         width: 100%;
