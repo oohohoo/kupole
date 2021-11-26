@@ -103,10 +103,10 @@ $("#btnwizdome").on("click", function () {
 });
 
 setTimeout(() => {
-  shuffleInstance.update();
-  console.log("UUUUUUpdated");
+  shuffleInstance.layout();
+  console.log("IDEMOO");
 
-}, 2000)
+}, 3000)
 
 /* SHUFFLE ACTIVE BUTTON */
 $('.navbar-link-wrapper').click(function() {
