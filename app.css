@@ -112,6 +112,7 @@ body::-webkit-scrollbar-thumb {
 
 .underline {
     position: relative;
+    background-color: #ff0000;
 }
 
 .underline::before {
