@@ -3,7 +3,7 @@
 
 /* SCROLL TO TOP */
 
-jQuery(document).ready(function ($) {
+/* jQuery(document).ready(function ($) { */
 
 window.addEventListener('scroll', e => {
   var el = document.getElementById('jsScroll');
@@ -214,4 +214,4 @@ var mySwiper = new Swiper('.swiper-container_solo', {
  
 //});
 
-});
+/* }); */
