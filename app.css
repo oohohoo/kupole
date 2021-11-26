@@ -136,6 +136,15 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+
+/*SORT ACTIVE*/
+
+.active {
+    color: #9e9e9e;
+    }
+
+    
+    
 /*UNDERLINE scroll in menu*/
 .underline-w {
     position: relative;
