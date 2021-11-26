@@ -80,7 +80,7 @@ var shuffleInstance = new Shuffle(element, {
   itemSelector: '.shuffle-box',
   sizer: sizer,
   buffer: 0,
-  speed: 200,
+  speed: 300,
   roundTransforms: true,
   useTransforms: true,
 });
