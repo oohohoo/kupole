@@ -136,7 +136,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-/*UNDERLINE WHITE*/
+/*UNDERLINE scroll in menu*/
 .underline-w {
     position: relative;
    
@@ -149,7 +149,7 @@ body::-webkit-scrollbar-thumb {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #00ff22;
+    background-color: #1a1a1a;
     background-blend-mode: different;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
