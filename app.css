@@ -235,7 +235,7 @@ SWIPER HOME
 
 .swiper-container .swiper-wrapper .swiper-slide-active .up {
     animation-name: fade-in;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: both;
    /* animation-delay: 0.1s;*/
 }
