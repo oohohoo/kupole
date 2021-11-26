@@ -1,5 +1,4 @@
-
-*{
+* {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -12,7 +11,7 @@ body {
     position: relative;
 }
 
-
+/*
 html {
     box-sizing: border-box;
 }
@@ -23,7 +22,7 @@ html {
     box-sizing: inherit;
 }
 
-
+*/
 
 
 input-placeholder,
@@ -113,7 +112,7 @@ body::-webkit-scrollbar-thumb {
 /*UNDERLINE BLACK*/
 .underline {
     position: relative;
-   
+
 }
 
 .underline::before {
@@ -141,14 +140,14 @@ body::-webkit-scrollbar-thumb {
 
 .active {
     color: #9e9e9e;
-    }
+}
 
-    
+
 
 /*UNDERLINE scroll in menu*/
 .underline-w {
     position: relative;
-   
+
 }
 
 .underline-w::before {
@@ -226,12 +225,7 @@ SWIPER ASPECT RATIO FIX
 
 
 
-/*
-================================================================================
-SWIPER HOME
-================================================================================
-*/
-
+/* SWIPER - HOME - HEADER */
 
 .swiper-container .swiper-wrapper .swiper-slide-active .up {
     animation-name: fade-in;
@@ -243,6 +237,7 @@ SWIPER HOME
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(2) {
     animation-delay: 0.2s;
 }
+
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(3) {
     animation-delay: 0.3s;
 }
@@ -263,7 +258,7 @@ SWIPER HOME
 
     to {
         opacity: 1;
-         transform: translateY(0); 
+        transform: translateY(0);
     }
 }
 
