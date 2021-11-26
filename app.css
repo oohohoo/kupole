@@ -249,7 +249,7 @@ SWIPER ASPECT RATIO FIX
 @keyframes fade-in {
     from {
         opacity: 0;
-        transform: translateY(48px);
+        transform: translateY(3rem);
     }
 
     to {
