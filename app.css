@@ -240,7 +240,7 @@ SWIPER HOME
 }
 
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(1) {
-    animation-delay: 0.2s;
+    animation-delay: 0.5s;
 }
 
 
