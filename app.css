@@ -308,7 +308,7 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
     right: 0;
     bottom: 0;
     background-color: #111; */
-    animation: swipe-line 6s infinite;
+    animation: swipe-line 4s infinite;
   }
   @keyframes swipe-line {
       80% {
