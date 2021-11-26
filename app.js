@@ -3,6 +3,8 @@
 
 /* SCROLL TO TOP */
 
+jQuery(document).ready(function ($) {
+
 window.addEventListener('scroll', e => {
   var el = document.getElementById('jsScroll');
   if (window.scrollY > 2000) {
@@ -43,7 +45,7 @@ $('a').each(function () {
 
 /* DROPDOWN LANGUAGE */
 
-jQuery(document).ready(function ($) {
+
 
   $(".navbar-dropdown_wrapper").click(function () {
     $(".navbar-dropdown_wrapper ul").show();
@@ -63,7 +65,7 @@ jQuery(document).ready(function ($) {
     $('.navbar-dropdown_wrapper .hover').html(selectedValue);
   })
 
-});
+
      
 
 /* HOME SHUFFLE.JS */
@@ -212,3 +214,4 @@ var mySwiper = new Swiper('.swiper-container_solo', {
  
 //});
 
+});
