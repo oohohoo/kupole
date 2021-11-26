@@ -110,10 +110,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 2rem;
 }
 
-.underline {
-    position: relative;
-     background-color: #1a1a1a;
-}
+
 
 .underline::before {
     content: "";
@@ -135,14 +132,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/* .underline.black::before {
+ .underline.black::before {
     background-color: #1a1a1a;
 }
 
 .underline.white::before {
-    background-color: #1a1a1a;
+    background-color: #fff;
 }
- */
+
 
 
 
