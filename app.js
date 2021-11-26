@@ -249,3 +249,15 @@ var menu = ['', '', '', '', '', '']
      
      
   });
+
+
+
+  /* NEŠTO*/
+  $('.navbar-link-wrapper').click(function() {
+    if ($(this).is("active"))
+      $('.navbar-link-wrapper').not(this).removeClass('active');
+    else
+      $(this).addClass('active');
+    $('.navbar-link-wrapper').not(this).removeClass('active');
+  });
+  
