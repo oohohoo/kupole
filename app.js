@@ -190,27 +190,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
 
 /* SWIPER - SOLO PAGES */
   
-var mySwiper = new Swiper('.swiper-container_solo', {
-  loop: true,
-  speed: 1000,
-  autoHeight: false,
-  updateOnWindowResize: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  effect: 'fade',
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  slidesPerView: 1,
-  observer: true,
-  observeParents: true,
-  observeSlideChildren: true,
-  longSwipes: false,
-  grabCursor: true,
-})
+
  
 //});
 
