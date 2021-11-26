@@ -281,7 +281,7 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 /* SCROLL DOWN LINE */
 
-.tt-scroll-down {
+/* .tt-scroll-down {
     position: absolute;
     bottom: 3%;
     left: 3%;
@@ -300,14 +300,14 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
     position: relative;
     width: 70px;
     height: 2px;
-  }
+  } */
   .tt-sd-arrow-inner {
-    position: absolute;
+/*     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #111;
+    background-color: #111; */
     animation: swipe-line 6s infinite;
   }
   @keyframes swipe-line {
