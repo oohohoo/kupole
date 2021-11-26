@@ -252,7 +252,7 @@ var menu = ['', '', '', '', '', '']
 
 
 
-  /* NEŠTO*/
+  /* SORT ACTIVE */
   $('.navbar-link-wrapper').click(function() {
     if ($(this).is("active"))
       $('.navbar-link-wrapper').not(this).removeClass('active');
