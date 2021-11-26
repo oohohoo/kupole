@@ -176,8 +176,8 @@ var menu = ['', '', '', '', '', '']
 SWIPER TESTIMONIALS
 ================================================================================
 */
-
-var menu = ['', '', '', '', '', '']  
+/* 
+var menu = ['', '', '', '', '', '']   */
   var mySwiper = new Swiper ('.swiper-container_home-testimonials', {
    loop: true,
 		speed: 1000,
@@ -212,7 +212,7 @@ SWIPER TESTIMONIALS
 ================================================================================
 */
 
-var menu = ['', '', '', '', '', '']  
+/* var menu = ['', '', '', '', '', '']   */
   var mySwiper = new Swiper ('.swiper-container_home-clients', {
    loop: true,
 		speed: 1000,
@@ -244,8 +244,44 @@ var menu = ['', '', '', '', '', '']
     grabCursor: true,
   })     
   
+
+    /*
+================================================================================
+SWIPER SOLO PAGES
+================================================================================
+*/
+
   
+  var mySwiper = new Swiper ('.swiper-container_solo', {
+    loop: true,
+     speed: 1000,
+    // spaceBetween: 100,
+    // initialSlide: 0,
+     //truewrapper adoptsheight of active slide
+     autoHeight: false,
+     updateOnWindowResize: true,
+     // Optional parameters
+   //  direction: 'vertical',
+       // delay between transitions in ms
      
+     effect: 'slide',
+     
+     /* navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },*/
+ 
+     slidesPerView: 1,
+     observer: true,
+   observeParents: true,
+   observeSlideChildren: true,
+   longSwipes: false,
+     grabCursor: true,
+   })  
+
+
+  
+
      
      
   });
