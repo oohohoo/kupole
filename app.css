@@ -100,12 +100,18 @@ body::-webkit-scrollbar-thumb {
     transition: all 400ms;
 }
 
+
+
 /* UNDERLINE MENU*/
 
 
 .navbar-link-wrapper {
     display: inline-block;
     line-height: 2rem;
+}
+
+.underline {
+    position: relative;
 }
 
 .underline::before {
@@ -115,7 +121,7 @@ body::-webkit-scrollbar-thumb {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #1a1a1a;
+    /*background-color: #1a1a1a;*/
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
