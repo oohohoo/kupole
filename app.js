@@ -2,12 +2,14 @@
 
 /* 100vh fix*/
 
-window.addEventListener('resize', () => { 
+
+
+/* window.addEventListener('resize', () => { 
   document.querySelector(':root').style
     .setProperty('--vh', window.innerHeight/100 + 'px');
 })
 
-
+ */
 
 /* SCROLL TO TOP */
 

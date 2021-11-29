@@ -50,10 +50,15 @@ input-placeholder,
 
 /* 100vh fix*/
 
-.swiper-container {
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+   }
+
+/* .swiper-container {
     height: calc(100 * var(--vh));
 }
-
+ */
 
 
 
