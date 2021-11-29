@@ -48,6 +48,8 @@ input-placeholder,
     top: 1rem !important;
 }
 
+/* 100vh fix*/
+
 .swiper-container {
     height: calc(100 * var(--vh));
 }
