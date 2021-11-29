@@ -54,13 +54,13 @@ input-placeholder,
 
 
 /*STICKY FOOTER*/
-.footer-sticky {
+/* .footer-sticky {
     position: sticky;
     z-index: 1;
     bottom: 0;
     left: 0;
 }
-
+ */
 @media screen and (max-width: 800px) {
     .footer-sticky {
         /* padding: 100px 0;*/
