@@ -98,6 +98,7 @@ Webflow.push(function () {
 
 /* jQuery(document).ready(function ($) { */
 
+  /*
 window.addEventListener('scroll', e => {
   var el = document.getElementById('jsScroll');
   if (window.scrollY > 2000) {
@@ -114,7 +115,7 @@ document.getElementById('jsScroll').onclick = function scrollToTop() {
   });
 }
 
-
+*/
 /* PAGE TRANSITION */
 
 function internalLink(myLink) {
