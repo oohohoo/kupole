@@ -36,13 +36,13 @@ html {
 100 vh fix / MOBILE MENU -- stavi prave klase
 ================================================================================
 */
-
+/*
 .mobilemenu {
-    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
   }
-
+*/
 
 
 input-placeholder,
