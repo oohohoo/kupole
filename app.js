@@ -16,7 +16,7 @@
 OPEN CLOSE MOBILE MENU
 ================================================================================
 */
-
+/*
 function openMenu() {
   $("#mobmen").fadeIn();
   $("#open-menu").hide();
