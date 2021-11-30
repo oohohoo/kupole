@@ -168,7 +168,7 @@ $('a').each(function () {
 
 var Shuffle = window.Shuffle;
 var element = document.querySelector('.flex-row');
-var sizer = element.querySelector('.x-sizer');
+//var sizer = element.querySelector('.x-sizer');
 
 var shuffleInstance = new Shuffle(element, {
   itemSelector: '.shuffle-box',
