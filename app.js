@@ -11,6 +11,89 @@
 
  */
 
+/*
+================================================================================
+OPEN CLOSE MOBILE MENU
+================================================================================
+*/
+
+function openMenu() {
+  $("#mobmen").fadeIn();
+  $("#open-menu").hide();
+}
+
+function closeMenu() {
+  $("#mobmen").fadeOut();
+  $("#open-menu").show();
+}
+
+
+
+
+/*
+================================================================================
+100 vh FIX - MOBILE MENU
+================================================================================
+*/
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+// We listen to the resize event
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
+
+
+/*
+================================================================================
+DISABLE SCROLL SCRIPT
+================================================================================
+*/
+var Webflow = Webflow || [];
+Webflow.push(function () {
+    var $body = $(document.body);
+    var scrollPosition = 0;
+
+    $('[scroll="disable"]').on('click', function () {
+        var oldWidth = $body.innerWidth();
+        scrollPosition = window.pageYOffset;
+        $body.css('overflow', 'hidden');
+        $body.css('position', 'fixed');
+        $body.css('top', `-${scrollPosition}px`);
+        $body.width(oldWidth);
+    });
+    $('[scroll="enable"]').on('click', function () {
+        if ($body.css('overflow') != 'hidden') { scrollPosition = window.pageYOffset; }
+        $body.css('overflow', '');
+        $body.css('position', '');
+        $body.css('top', '');
+        $body.width('');
+        $(window).scrollTop(scrollPosition);
+    });
+    $('[scroll="both"]').on('click', function () {
+        if ($body.css('overflow') !== 'hidden') {
+            var oldWidth = $body.innerWidth();
+            scrollPosition = window.pageYOffset;
+            $body.css('overflow', 'hidden');
+            $body.css('position', 'fixed');
+            $body.css('top', `-${scrollPosition}px`);
+            $body.width(oldWidth);
+        } else {
+            $body.css('overflow', '');
+            $body.css('position', '');
+            $body.css('top', '');
+            $body.width('');
+            $(window).scrollTop(scrollPosition);
+        }
+    });
+});
+
+
+
 /* SCROLL TO TOP */
 
 /* jQuery(document).ready(function ($) { */
