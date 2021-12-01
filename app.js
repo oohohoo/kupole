@@ -165,7 +165,7 @@ $('a').each(function () {
 /* HOME SHUFFLE.JS */
 
 /*function loadallshuffle() { */
-/*
+
 var Shuffle = window.Shuffle;
 var element = document.querySelector('.flex-row');
 var sizer = element.querySelector('.x-sizer');
