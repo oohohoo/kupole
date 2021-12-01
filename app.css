@@ -31,6 +31,7 @@ html {
 */
 
 
+
 /*
 ================================================================================
 100 vh fix / MOBILE MENU -- stavi prave klase
@@ -63,6 +64,17 @@ input-placeholder,
     position: absolute !important;
     top: 1rem !important;
 }
+
+/*FORMA FIX */
+
+input, textarea {
+    border  : none;
+    padding : 0 1rem;
+    margin  : 0;
+    background : none;
+  }
+  
+
 
 /* 100vh fix*/
 
