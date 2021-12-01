@@ -3,12 +3,7 @@ html {
 }
 
 /* ANIMATE ALL*/
-*{
-	-webkit-transition:all 1s ease;
-	-moz-transition:all 1s ease;
-	-o-transition:all 1s ease;
-	transition:all 1s ease;
-}
+/*
 
 html,
 body {
@@ -17,7 +12,7 @@ body {
     height: 100%;
     position: relative;
 }
-
+*/
 /*
 html {
     box-sizing: border-box;
