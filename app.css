@@ -3,7 +3,13 @@ html {
 }
 
 /* ANIMATE ALL*/
+
 /*
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+*/
 
 html,
 body {
@@ -12,7 +18,7 @@ body {
     height: 100%;
     position: relative;
 }
-*/
+
 /*
 html {
     box-sizing: border-box;
