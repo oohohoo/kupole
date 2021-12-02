@@ -228,7 +228,7 @@ body::-webkit-scrollbar-thumb {
 
 /*SORT ACTIVE*/
 
-.active {
+.sort_menu-fix .active {
     color: #757575;
 }
 
