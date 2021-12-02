@@ -2,15 +2,6 @@ html {
     font-size: 16px;
 }
 
-/* ANIMATE ALL*/
-
-/*
-* {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-*/
-
 html,
 body {
     margin: 0;
@@ -18,20 +9,6 @@ body {
     height: 100%;
     position: relative;
 }
-
-/*
-html {
-    box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-*/
-
 
 
 
@@ -100,8 +77,6 @@ a {
 }
 
 
-
-
 /*
 ================================================================================
 100 vh fix / MOBILE MENU -- stavi prave klase
@@ -114,6 +89,14 @@ a {
     margin: 0 auto;
   }
 */
+
+/* 100vh fix ??*/
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+   }
+
 
 
 input-placeholder,
@@ -146,12 +129,6 @@ input, textarea {
   
 
 
-/* 100vh fix*/
-
-body {
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
-   }
 
 /* .swiper-container {
     height: calc(100 * var(--vh));
@@ -168,21 +145,23 @@ body {
     left: 0;
 }
  */
+
+ /*
 @media screen and (max-width: 800px) {
     .footer-sticky {
-        /* padding: 100px 0;*/
+        
         min-height: 80vh;
     }
 }
 
 @media screen and (max-width: 50px) {
     .footer-sticky {
-        /* padding: 32px 0; */
+       
         min-height: 100vh;
     }
 }
 
-
+*/
 
 
 
@@ -252,11 +231,6 @@ body::-webkit-scrollbar-thumb {
 .active {
     color: #757575;
 }
-
-
-
-
-
 
 
 /*UNDERLINE scroll in menu*/
