@@ -128,7 +128,7 @@ $('a').each(function () {
       var moduleURL = jQuery(this).attr("href");
       setTimeout(function () {
         window.location = moduleURL
-      }, 1000);
+      }, 800);
       // Class that has page out interaction tied to click
       $('.page-transition').click();
     });
