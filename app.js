@@ -107,14 +107,14 @@ window.addEventListener('scroll', e => {
     el.classList.remove('visible');
   }
 });
-
+/* 
 document.getElementById('jsScroll').onclick = function scrollToTop() {
   window.scrollTo({
     top: 0,
     behavior: 'smooth'
   });
 }
-
+ */
 
 /* PAGE TRANSITION */
 
