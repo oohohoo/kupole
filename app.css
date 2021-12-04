@@ -417,8 +417,8 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 /* SWIPER NAV OFF MOBILE */  
 
-  @media screen and (max-width: 479px) {
+/*   @media screen and (max-width: 479px) {
     .swiper-button-next, .swiper-button-prev  {
         display: none;
     }
-}
+} */
