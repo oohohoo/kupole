@@ -417,8 +417,29 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 /* SWIPER NAV OFF MOBILE */  
 
-  @media screen and (max-width: 479px) {
-    .swiper-button-next, .swiper-button-prev  {
-        display: none;
+  @media screen and (max-width: 991px) {
+    .flex-col-3 {
+        width: 33%;
     }
+    
 }
+
+
+@media screen and (max-width: 767px) {
+    .flex-col-3 {
+        width: 33%;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .flex-col-3 {
+        width: 50%;
+    }
+    
+}
+
+
+
+
+
