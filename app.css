@@ -434,7 +434,7 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 @media screen and (max-width: 479px) {
     .flex-col-3 {
-        width: 50%;
+        width: 100%;
     }
     
 }
