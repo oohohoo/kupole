@@ -112,10 +112,15 @@ input-placeholder,
 }
 
 
-.w-input::-webkit-input-placeholder,
+/* .w-input::-webkit-input-placeholder,
 .w-select::-webkit-input-placeholder {
     position: absolute !important;
     top: 1rem !important;
+} */
+
+.w-input:focus, .w-select:focus {
+    border-color: #1a1a1a;
+    outline: 0;
 }
 
 /*FORMA FIX */
