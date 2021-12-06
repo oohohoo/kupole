@@ -436,6 +436,24 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
     .flex-col-3 {
         width: 100%;
     }
+
+
+    .swiper-button-prev  {
+        left: 1rem!important;
+    }
+
+    .swiper-button-next  {
+        right: 1rem!important;
+    }
+
+    
+}
+
+@media screen and (max-width: 428px) {
+    .grid-info-proizvodi {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
     
 }
 
