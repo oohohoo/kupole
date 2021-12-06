@@ -123,6 +123,15 @@ input-placeholder,
     outline: 0;
 }
 
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(rgb(230, 230, 230), rgba(230, 230, 230, 1)) !important;
+   
+}
+
+
 /*FORMA FIX */
 
 /* input, textarea {
