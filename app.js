@@ -291,10 +291,10 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
     1024: {
       slidesPerView: 5,
       spaceBetween: 50,
-    }*
-  }
+    },
+  },
 
-})
+});
   
 
 /* SWIPER - SOLO PAGES */
