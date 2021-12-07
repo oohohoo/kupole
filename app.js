@@ -279,7 +279,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
   observeSlideChildren: true,
   longSwipes: false,
   grabCursor: true,
-  breakpoints: {
+/*   breakpoints: {
     640: {
       slidesPerView: 2,
       spaceBetween: 20,
@@ -292,7 +292,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
       slidesPerView: 5,
       spaceBetween: 50,
     },
-  },
+  }, */
 
 });
   
