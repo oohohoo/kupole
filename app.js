@@ -260,7 +260,7 @@ var mySwiper = new Swiper('.swiper-container_home-testimonials', {
 })
 
 
-/* SWIPER - HOME - TESTIMONIALS */
+/* SWIPER - HOME - CLIENTS */
 
 var mySwiper = new Swiper('.swiper-container_home-clients', {
   loop: true,
@@ -279,6 +279,20 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
   observeSlideChildren: true,
   longSwipes: false,
   grabCursor: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    1024: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+    
 })
   
 
