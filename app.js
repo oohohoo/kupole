@@ -296,7 +296,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
           spaceBetween: 28,
           resistanceRatio: 0.85
       },
-      1280: {
+      1023: {
           slidesPerView: 5,
           spaceBetween: 40,
           resistanceRatio : 0
