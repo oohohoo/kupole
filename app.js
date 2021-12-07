@@ -281,7 +281,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
   grabCursor: true,
   resistanceRatio : 0,
   breakpoints: {
-      479: {
+      379: {
           slidesPerView: 2,
           spaceBetween: 24,
           resistanceRatio: 0.85
