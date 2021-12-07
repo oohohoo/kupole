@@ -435,6 +435,13 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
   
 
 /* SWIPER NAV OFF MOBILE */  
+@media screen and (max-width: 1024px) {
+    .clients-logo {
+        width: 10rem;
+    }
+    
+}
+
 
   @media screen and (max-width: 991px) {
     .flex-col-3 {
