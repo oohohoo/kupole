@@ -124,7 +124,7 @@ input-placeholder,
 } */
 
 .w-input:focus, .w-select:focus {
-    border-color: #1a1a1a;
+    border-color: #1a1a1a!important;
     outline: 0;
 }
 
