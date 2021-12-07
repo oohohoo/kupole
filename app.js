@@ -265,35 +265,43 @@ var mySwiper = new Swiper('.swiper-container_home-testimonials', {
 var mySwiper = new Swiper('.swiper-container_home-clients', {
   loop: true,
   speed: 1000,
-  autoHeight: false,
-  updateOnWindowResize: true,
+/*   autoHeight: false,
+  updateOnWindowResize: true, */
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   },
   effect: 'slide',
   slidesPerView: 5,
-  scrollbar: false,
+/*   scrollbar: false,
   observer: true,
   observeParents: true,
-  observeSlideChildren: true,
+  observeSlideChildren: true, */
   longSwipes: false,
   grabCursor: true,
-/*   breakpoints: {
-    640: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 4,
-      spaceBetween: 40,
-    },
-    1024: {
-      slidesPerView: 5,
-      spaceBetween: 50,
-    },
-  }, */
-
+  resistanceRatio : 0,
+  breakpoints: {
+      480: {
+          slidesPerView: 2,
+          spaceBetween: 24,
+          resistanceRatio: 0.85
+      },
+      768: {
+          slidesPerView: 3,
+          spaceBetween: 28,
+          resistanceRatio: 0.85
+      },
+      980: {
+          slidesPerView: 4,
+          spaceBetween: 28,
+          resistanceRatio: 0.85
+      },
+      1280: {
+          slidesPerView: 6,
+          spaceBetween: 32,
+          resistanceRatio : 0
+      }
+  }
 });
   
 
