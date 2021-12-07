@@ -281,11 +281,11 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
   grabCursor: true,
   resistanceRatio : 0,
   breakpoints: {
-     /*  300: {
-          slidesPerView: 2,
+      300: {
+          slidesPerView: 3,
           spaceBetween: 24,
           resistanceRatio: 0.85
-      }, */
+      },
       768: {
           slidesPerView: 3,
           spaceBetween: 28,
