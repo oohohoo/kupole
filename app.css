@@ -375,8 +375,8 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 
     .navbar_container {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
