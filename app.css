@@ -372,6 +372,27 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
     .clients-logo {
         width: 10rem;
     }
+
+
+    .navbar_container {
+        padding-top: 1rem;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+     /*    -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center; */
+    }
+
+
+
     
 }
 
