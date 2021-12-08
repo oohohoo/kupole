@@ -137,7 +137,7 @@ input:-internal-autofill-selected {
 }
 
 .clamp {
-  font-size: clamp(3rem, 5vw + 3rem, 5.625rem);
+  font-size: clamp(2rem, 8vw + 8rem, 10rem);
 }
 
 
