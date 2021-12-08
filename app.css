@@ -392,6 +392,10 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
         align-items: center; */
     }
 
+    .navbar_menu_wrapper {
+        padding-top: 0;
+
+    }
 
 
     
