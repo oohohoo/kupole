@@ -368,7 +368,9 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
   
 
 /* SWIPER NAV OFF MOBILE */  
-@media screen and (max-width: 1024px) {
+
+
+@media screen and (max-width: 1024px) and (min-width: 1020px) {
     .clients-logo {
         width: 10rem;
     }
