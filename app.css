@@ -397,6 +397,10 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 .heading-medium {
     font-size: 2rem;
 }
+
+.sort_menu {
+    grid-column-gap: 1rem;
+}
     
 }
 
