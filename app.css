@@ -136,6 +136,10 @@ input:-internal-autofill-selected {
    
 }
 
+.clamp {
+clamp(1.438rem, 2vw + 1rem, 2.25rem);
+}
+
 
 /*FORMA FIX */
 
