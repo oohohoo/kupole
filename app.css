@@ -87,13 +87,13 @@ a {
 100 vh fix / MOBILE MENU -- stavi prave klase
 ================================================================================
 */
-/*
-.mobilemenu {
+
+.mobile-menu-reveal {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
   }
-*/
+
 
 /* 100vh fix ??*/
 
@@ -136,6 +136,14 @@ input:-internal-autofill-selected {
    
 }
 
+/*
+================================================================================
+iOS HIGHLIGHT COLOR FIX
+================================================================================
+*/
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    }
 
 /*FORMA FIX */
 
