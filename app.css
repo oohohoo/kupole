@@ -391,7 +391,7 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
     }
 
 .home-projekti_title-wrapper {
-    opacity:1;
+    opacity:1!important;
 }
     
 }
