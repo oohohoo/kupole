@@ -19,15 +19,17 @@ body {
 
 
   /* KILL WEBFLOW BADGE */
-.w-webflow-badge {
+/* .w-webflow-badge {
     position: relative !important;
     right: 1000px !important;
 }
+ */
 
-
-/* CLIENT FIRST */
-
-
+/*
+================================================================================
+CLIENT FIRST
+================================================================================
+*/
 /* Snippet gets rid of top margin on first element in any rich text*/
 .w-richtext>:first-child {
 	margin-top: 0;
@@ -73,8 +75,6 @@ a {
 	font-size: inherit;
 }
 
-
-
 /*
 ================================================================================
 100 vh fix / MOBILE MENU -- stavi prave klase
@@ -87,22 +87,21 @@ a {
     margin: 0 auto;
  }
 
-
 input-placeholder,
 .w-select::-webkit-input-placeholder {
     color: #999;
 }
 
-
-
-
-
+/*
+================================================================================
+INPUT BORDER COLOR
+================================================================================
+*/
 
 .w-input:focus, .w-select:focus {
     border-color: #1a1a1a!important;
     outline: 0;
 }
-
 
 input:-internal-autofill-selected {
     appearance: menulist-button;
@@ -119,53 +118,6 @@ iOS HIGHLIGHT COLOR FIX
 html {
     -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
     }
-
-/*FORMA FIX */
-
-/* input, textarea {
-    border  : none;
-    padding : 0 1rem;
-    margin  : 0;
-    background : none;
-  }
-   */
-
-
-
-/* .swiper-container {
-    height: calc(100 * var(--vh));
-}
- */
-
-
-
-/*STICKY FOOTER*/
-/* .footer-sticky {
-    position: sticky;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-}
- */
-
- /*
-@media screen and (max-width: 800px) {
-    .footer-sticky {
-        
-        min-height: 80vh;
-    }
-}
-
-@media screen and (max-width: 50px) {
-    .footer-sticky {
-       
-        min-height: 100vh;
-    }
-}
-
-*/
-
-
 
 /*
 ================================================================================
@@ -184,27 +136,35 @@ body::-webkit-scrollbar-thumb {
     background: rgb(26, 26, 26);
 }
 
-/*SCROLL TO TOP*/
-
+/*
+================================================================================
+SCROLL TO TOP
+================================================================================
+*/
 .visible {
     opacity: 1;
     transition: all 400ms;
 }
 
-
-
-/* UNDERLINE MENU*/
-
+/*
+================================================================================
+UNDERLINE MENU
+================================================================================
+*/
 
 .navbar-link-wrapper {
     display: inline-block;
     line-height: 2rem;
 }
 
-/*UNDERLINE BLACK*/
+/*
+================================================================================
+UNDERLINE BLACK
+================================================================================
+*/
+
 .underline {
     position: relative;
-
 }
 
 .underline::before {
@@ -228,17 +188,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-/*SORT ACTIVE*/
-
+/*
+================================================================================
+SORT ACTIVE
+================================================================================
+*/
 .sort_menu-fix .active {
     color: #757575;
 }
 
+/*
+================================================================================
+UNDERLINE scroll in menu
+================================================================================
+*/
 
-/*UNDERLINE scroll in menu*/
 .underline-w {
     position: relative;
-
 }
 
 .underline-w::before {
@@ -261,12 +227,12 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
+/*
+================================================================================
+SHUFFLE.JS specific size
+================================================================================
+*/
 
-
-
-
-
-/* Shuffle/demo specific styles */
 .x-sizer {
     position: absolute;
     visibility: hidden;
@@ -288,7 +254,6 @@ body::-webkit-scrollbar-thumb {
 .flex-col-6 {
     width: 50%;
 }
-
 
 /*
 ================================================================================
@@ -314,9 +279,11 @@ SWIPER ASPECT RATIO FIX
     left: 2.4rem !important;
 }
 
-
-
-/* SWIPER - HOME - HEADER */
+/*
+================================================================================
+SWIPER - HOME - HEADER
+================================================================================
+*/
 
 .swiper-container .swiper-wrapper .swiper-slide-active .up {
     animation-name: fade-in;
@@ -333,9 +300,6 @@ SWIPER ASPECT RATIO FIX
 .swiper-container .swiper-wrapper .swiper-slide-active .up:nth-child(3) {
     animation-delay: 0.7s;
 }
-
-
-
 
 @keyframes fade-in {
     from {
@@ -363,18 +327,16 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 .swiper-button-prev:focus {
     outline: none;
 }
-
-
-  
-
-/* SWIPER NAV OFF MOBILE */  
-
+/*
+================================================================================
+SWIPER NAV OFF MOBILE
+================================================================================
+*/
 
 @media screen and (max-width: 1024px) and (min-width: 992px) {
     .clients-logo {
         width: 10rem;
     }
-
 
     .navbar_container {
         padding-top: 0.75rem;
@@ -400,24 +362,19 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
 
 .sort_menu {
     grid-column-gap: 1.5rem;
-}
-    
+}   
 }
 
-
-  @media screen and (max-width: 991px) {
+@media screen and (max-width: 991px) {
     .flex-col-3 {
         width: 33%;
-    }
-    
+    }   
 }
-
 
 @media screen and (max-width: 767px) {
     .flex-col-3 {
         width: 33%;
-    }
-    
+    } 
 }
 
 @media screen and (max-width: 479px) {
@@ -425,16 +382,13 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
         width: 100%;
     }
 
-
     .swiper-button-prev  {
         left: 1rem!important;
     }
 
     .swiper-button-next  {
         right: 1rem!important;
-    }
-
-    
+    }  
 }
 
 @media screen and (max-width: 428px) {
@@ -442,7 +396,6 @@ KILL FOCUS ON ALL BUT WITH ACCESIBILITY
         -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
-    
 }
  
 

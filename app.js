@@ -17,49 +17,13 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-/*
-================================================================================
-OPEN CLOSE MOBILE MENU
-================================================================================
-*/
-/*
-function openMenu() {
-  $("#mobmen").fadeIn();
-  $("#open-menu").hide();
-}
-
-function closeMenu() {
-  $("#mobmen").fadeOut();
-  $("#open-menu").show();
-}
-
-
-
-
-/*
-================================================================================
-100 vh FIX - MOBILE MENU
-================================================================================
-*/
-/*
-// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-// We listen to the resize event
-window.addEventListener('resize', () => {
-  // We execute the same script as before
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
-
 
 /*
 ================================================================================
 DISABLE SCROLL SCRIPT ?????
 ================================================================================
 */
-var Webflow = Webflow || [];
+/* var Webflow = Webflow || [];
 Webflow.push(function () {
     var $body = $(document.body);
     var scrollPosition = 0;
@@ -96,14 +60,14 @@ Webflow.push(function () {
             $(window).scrollTop(scrollPosition);
         }
     });
-});
+}); */
 
 
-
-/* SCROLL TO TOP */
-
-/* jQuery(document).ready(function ($) { */
-
+/*
+================================================================================
+SCROLL TO TOP
+================================================================================
+*/
  
 window.addEventListener('scroll', e => {
   var el = document.getElementById('jsScroll');
@@ -113,16 +77,12 @@ window.addEventListener('scroll', e => {
     el.classList.remove('visible');
   }
 });
-/* 
-document.getElementById('jsScroll').onclick = function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-}
- */
 
-/* PAGE TRANSITION */
+/*
+================================================================================
+PAGE TRANSITION
+================================================================================
+*/
 
 function internalLink(myLink) {
   return (myLink.host == window.location.host);
@@ -142,10 +102,11 @@ $('a').each(function () {
 });
 
 
-
-/* DROPDOWN LANGUAGE */
-
-
+/*
+================================================================================
+DROPDOWN LANGUAGE
+================================================================================
+*/
 
   $(".navbar-dropdown_wrapper").click(function () {
     $(".navbar-dropdown_wrapper ul").show();
@@ -165,10 +126,11 @@ $('a').each(function () {
     $('.navbar-dropdown_wrapper .hover').html(selectedValue);
   })
 
-
-     
-
-/* HOME SHUFFLE.JS */
+/*
+================================================================================
+HOME SHUFFLE.JS
+================================================================================
+*/
 
 /*function loadallshuffle() { */
 
@@ -217,14 +179,12 @@ $('.navbar-link-wrapper').click(function() {
   $('.navbar-link-wrapper').not(this).removeClass('active');
 });
 
+
 /*
-document.addEventListener("DOMContentLoaded", () => {
-
-loadallshuffle();
-});*/
-
-
-/* SWIPER - HOME - HEADER */
+================================================================================
+SWIPER - HOME HEADER
+================================================================================
+*/
 
 var mySwiper = new Swiper('.swiper-container', {
   loop: true,
@@ -248,8 +208,11 @@ var mySwiper = new Swiper('.swiper-container', {
   grabCursor: true,
 })
  
-
-/* SWIPER - HOME - TESTIMONIALS */
+/*
+================================================================================
+SWIPER HOME TESTIMONIALS
+================================================================================
+*/
 
 var mySwiper = new Swiper('.swiper-container_home-testimonials', {
   loop: true,
@@ -265,24 +228,21 @@ var mySwiper = new Swiper('.swiper-container_home-testimonials', {
   grabCursor: true,
 })
 
-
-/* SWIPER - HOME - CLIENTS */
+/*
+================================================================================
+SWIPER HOME CLIENTS
+================================================================================
+*/
 
 var mySwiper = new Swiper('.swiper-container_home-clients', {
   loop: true,
   speed: 1000,
-/*   autoHeight: false,
-  updateOnWindowResize: true, */
   autoplay: {
     delay: 3000,
     disableOnInteraction: false,
   },
   effect: 'slide',
   slidesPerView: 5,
-/*   scrollbar: false,
-  observer: true,
-  observeParents: true,
-  observeSlideChildren: true, */
   longSwipes: false,
   grabCursor: true,
   resistanceRatio : 0,
@@ -309,15 +269,7 @@ var mySwiper = new Swiper('.swiper-container_home-clients', {
       }
   }
 });
-  
 
-/* SWIPER - SOLO PAGES */
-  
-
- 
-//});
-
-/* }); */
 
 /*
 ================================================================================
