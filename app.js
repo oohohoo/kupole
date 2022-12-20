@@ -84,7 +84,7 @@ PAGE TRANSITION
 ================================================================================
 */
 
-function internalLink(myLink) {
+/* function internalLink(myLink) {
   return (myLink.host == window.location.host);
 }
 $('a').each(function () {
@@ -100,7 +100,7 @@ $('a').each(function () {
     });
   }
 });
-
+ */
 
 /*
 ================================================================================
