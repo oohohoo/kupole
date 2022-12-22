@@ -1,22 +1,6 @@
 /*$(document).ready(function(){
 */
 
-/*
-================================================================================
-FOUC UCITAJ STRANICU KAD JE SVE UCITANO
-================================================================================
-*/
-  // Helper function
-let domReady = (cb) => {
-  document.readyState === 'interactive' || document.readyState === 'complete'
-    ? cb()
-    : document.addEventListener('DOMContentLoaded', cb);
-};
-
-domReady(() => {
-  // Display body when DOM is loaded
-  document.body.style.visibility = 'visible';
-});
 
 /*
 ================================================================================
